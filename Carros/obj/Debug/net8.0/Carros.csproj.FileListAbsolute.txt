@@ -134,3 +134,4 @@ C:\Users\User\Desktop\FACULDADE\REGES\C#\Carros\Carros\obj\Debug\net8.0\refint\C
 C:\Users\User\Desktop\FACULDADE\REGES\C#\Carros\Carros\obj\Debug\net8.0\Carros.pdb
 C:\Users\User\Desktop\FACULDADE\REGES\C#\Carros\Carros\obj\Debug\net8.0\Carros.genruntimeconfig.cache
 C:\Users\User\Desktop\FACULDADE\REGES\C#\Carros\Carros\obj\Debug\net8.0\ref\Carros.dll
+C:\Users\User\Desktop\FACULDADE\REGES\C#\Carros\Carros\obj\Debug\net8.0\Carros.sourcelink.json
