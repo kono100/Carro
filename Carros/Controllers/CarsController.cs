@@ -1,11 +1,13 @@
 ﻿using Carros.Data;
 using Carros.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Client;
 
 namespace Carros.Controllers
 {
+
     public class CarsController : Controller
     {
         private readonly ApplicationDbContext _context;
