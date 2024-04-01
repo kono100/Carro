@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Carros.Controllers
 {
+    [Authorize(Roles ="Admin")]
     public class AppRolesController : Controller
     {
         private readonly RoleManager<IdentityRole> _roleManager;
@@ -16,7 +17,7 @@ namespace Carros.Controllers
         public IActionResult Index()
         {
             var roles = _roleManager.Roles;
-            return View();
+            return View(roles);
 
         }
         [HttpGet]

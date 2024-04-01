@@ -7,7 +7,7 @@ using Microsoft.Identity.Client;
 
 namespace Carros.Controllers
 {
-
+    [Authorize]
     public class CarsController : Controller
     {
         private readonly ApplicationDbContext _context;
